@@ -12,7 +12,15 @@ Este é um projeto de chatbot de Telegram para gerenciar reservas de um hotel. O
 
 ## Estrutura do Projeto
 
-hotel_bot/ │ ├── bot/ │ ├── init.py # Inicializa o pacote bot │ ├── handlers.py # Handlers dos comandos do bot (reserva, check-in, etc.) │ ├── database.py # Operações do banco de dados (SQLite) │ └── bot.py # Script principal do bot │ ├── Dockerfile # Arquivo Docker para o projeto ├── docker-compose.yml # Arquivo Docker Compose para configurar e rodar o bot ├── requirements.txt # Arquivo de dependências do projeto └── README.md # Documentação do projeto
+hotel_bot/ │ ├── bot/ │ 
+              ├── init.py # Inicializa o pacote bot │ 
+              ├── handlers.py # Handlers dos comandos do bot (reserva, check-in, etc.) │ 
+              ├── database.py # Operações do banco de dados (SQLite) │ 
+              └── bot.py # Script principal do bot │ 
+├── Dockerfile # Arquivo Docker para o projeto 
+├── docker-compose.yml # Arquivo Docker Compose para configurar e rodar o bot 
+├── requirements.txt # Arquivo de dependências do projeto 
+
 
 ## Pré-requisitos
 
