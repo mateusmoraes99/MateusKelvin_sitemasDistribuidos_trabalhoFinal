@@ -1,0 +1,8 @@
+version: '3'
+services:
+  hotel_bot:
+    build: .
+    container_name: hotel_bot
+    volumes:
+      - ./bot/hotel.db:/app/hotel.db
+    restart: always
